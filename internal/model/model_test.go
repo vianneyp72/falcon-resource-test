@@ -9,7 +9,7 @@ func TestComponentLabel(t *testing.T) {
 		IAR:             "IAR",
 		Injector:        "Container Sensor Injector",
 		Operator:        "Falcon Operator",
-		Self:            "Falcon Footprint",
+		Self:            "Falcon Resource Test",
 	}
 	for c, want := range cases {
 		if got := c.Label(); got != want {

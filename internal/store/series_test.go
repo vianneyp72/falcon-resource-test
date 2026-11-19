@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vianneyp72/falcon-cloud-security-labs/tools/falcon-footprint/internal/model"
+	"github.com/vianneyp72/falcon-resource-test/internal/model"
 )
 
 // two sensor pods + one KAC pod, every 15s for 10 minutes

@@ -6,8 +6,8 @@ test:
 ui:
 	cd ui && npm ci && npm run build
 build: ui
-	CGO_ENABLED=0 go build -trimpath -ldflags="-s -w -X main.version=$(VERSION)" -o bin/footprint ./cmd/footprint
+	CGO_ENABLED=0 go build -trimpath -ldflags="-s -w -X main.version=$(VERSION)" -o bin/falcon-resource-test ./cmd/falcon-resource-test
 image:
-	docker buildx build --platform linux/amd64,linux/arm64 --build-arg VERSION=$(VERSION) -t falcon-footprint:dev .
+	docker buildx build --platform linux/amd64,linux/arm64 --build-arg VERSION=$(VERSION) -t falcon-resource-test:dev .
 e2e:
 	./test/e2e.sh

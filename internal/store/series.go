@@ -3,7 +3,7 @@ package store
 import (
 	"time"
 
-	"github.com/vianneyp72/falcon-cloud-security-labs/tools/falcon-footprint/internal/model"
+	"github.com/vianneyp72/falcon-resource-test/internal/model"
 )
 
 type Point struct {

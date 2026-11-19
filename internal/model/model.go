@@ -1,4 +1,4 @@
-// Package model holds the types shared by every falcon-footprint package.
+// Package model holds the types shared by every falcon-resource-test package.
 // CPU is always millicores, memory always bytes.
 package model
 
@@ -12,7 +12,7 @@ const (
 	IAR             Component = "iar"
 	Injector        Component = "injector"
 	Operator        Component = "operator"
-	Self            Component = "self" // falcon-footprint itself, reported separately
+	Self            Component = "self" // falcon-resource-test itself, reported separately
 )
 
 // FalconComponents is the display order for Falcon (non-Self) components.
@@ -24,7 +24,7 @@ var labels = map[Component]string{
 	IAR:             "IAR",
 	Injector:        "Container Sensor Injector",
 	Operator:        "Falcon Operator",
-	Self:            "Falcon Footprint",
+	Self:            "Falcon Resource Test",
 }
 
 func (c Component) Label() string {

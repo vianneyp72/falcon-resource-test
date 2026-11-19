@@ -12,7 +12,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	appsv1client "k8s.io/client-go/kubernetes/typed/apps/v1"
 
-	"github.com/vianneyp72/falcon-cloud-security-labs/tools/falcon-footprint/internal/model"
+	"github.com/vianneyp72/falcon-resource-test/internal/model"
 )
 
 type Workload struct {

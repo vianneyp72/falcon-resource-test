@@ -1,4 +1,4 @@
-module github.com/vianneyp72/falcon-cloud-security-labs/tools/falcon-footprint
+module github.com/vianneyp72/falcon-resource-test
 
 go 1.27.4
 

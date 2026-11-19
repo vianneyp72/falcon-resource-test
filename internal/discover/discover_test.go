@@ -9,7 +9,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes/fake"
 
-	"github.com/vianneyp72/falcon-cloud-security-labs/tools/falcon-footprint/internal/model"
+	"github.com/vianneyp72/falcon-resource-test/internal/model"
 )
 
 func podSpec(images ...string) corev1.PodTemplateSpec {

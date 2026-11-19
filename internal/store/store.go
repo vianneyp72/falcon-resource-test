@@ -12,7 +12,7 @@ import (
 
 	_ "modernc.org/sqlite"
 
-	"github.com/vianneyp72/falcon-cloud-security-labs/tools/falcon-footprint/internal/model"
+	"github.com/vianneyp72/falcon-resource-test/internal/model"
 )
 
 const schema = `

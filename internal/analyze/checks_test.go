@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vianneyp72/falcon-cloud-security-labs/tools/falcon-footprint/internal/model"
+	"github.com/vianneyp72/falcon-resource-test/internal/model"
 )
 
 var t0 = time.Unix(1_700_000_100, 0)
